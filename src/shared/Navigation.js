@@ -9,7 +9,7 @@ class Navigation extends Component
     render()
     {
         return (
-            <AppBar title="title">
+            <AppBar title="Intigo" zDepth={1}>
             </AppBar>
         );
         
