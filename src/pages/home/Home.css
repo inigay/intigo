@@ -2,6 +2,7 @@
 {
     display: flex;
     justify-content: space-around;
+    padding-top:104px;
 }
 
 
@@ -9,6 +10,29 @@
 {
     display: flex;
     justify-content: center;
+    min-height:644px;
+}
+
+
+
+.banner-action-area > div:nth-child(2)
+{
+    margin-left:25px;
+}
+
+
+.banner-content h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size: 3rem;
+    color:#616161;
+}
+
+.banner-content p
+{
+    color: #757575;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 1024px)

@@ -2,14 +2,18 @@ import React, {Component} from 'react';
 
 import Banner from './Banner';
 import './Home.css';
+import MobileSection from './MobileSection';
+import WebSection from './WebSection';
 
 class Home extends Component
 {
     render()
     {
         return (
-            <div className="home-wrapper">
+            <div>
                 <Banner />
+                <MobileSection />
+                <WebSection />
             </div>
         );
     }

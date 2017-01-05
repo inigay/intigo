@@ -1,0 +1,21 @@
+.mobile-section
+{
+    background:#f6f6f6;
+    padding:5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-section h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size: 3rem;
+    color:#444;
+}
+
+.mobile-section p
+{
+    color: #757575;
+    line-height: 1.5;
+}
