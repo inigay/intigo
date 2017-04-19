@@ -4,6 +4,7 @@ import Banner from './Banner';
 import './Home.css';
 import MobileSection from './MobileSection';
 import WebSection from './WebSection';
+import Heading from './Heading';
 
 class Home extends Component
 {
@@ -12,6 +13,7 @@ class Home extends Component
         return (
             <div>
                 <Banner />
+                
                 <MobileSection />
                 <WebSection />
             </div>

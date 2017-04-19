@@ -15,7 +15,7 @@ body {
   
 }
 
-.inline-nav > div > span
+.inline-nav > div > span, .inline-nav > a > div > span
 {
   color:#fff!important;
   font-size:18px!important;
@@ -45,7 +45,7 @@ body {
   position: absolute;
   background: #fff;
   top: 47px;
-  right: -78px;
+  right: -71px;
   display: block;
   user-select: none;
   width: 0px;

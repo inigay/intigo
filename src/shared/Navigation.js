@@ -18,7 +18,7 @@ class Navigation extends Component
                 className="app-bar" 
                 zDepth={1} title="Intigo" 
                 iconElementLeft={
-                    <Link to={'/'}>
+                    <Link to="/">
                         <img 
                             src="/img/logo2.png" 
                             className="logo-image" 
@@ -29,11 +29,17 @@ class Navigation extends Component
                     {flexGrow: 1}
                 }
                 iconElementRight={
-                    <Link to={'/'} style={{flexGrow: 1}}>
+                    
                         <List 
                             className="inline-nav"
                             style={{display:"flex", justifyContent: "flex-end"}}
                         >
+                            <Link to="/">
+                                <ListItem 
+                                primaryText="Home">
+                                
+                                </ListItem>
+                            </Link>
                             <ListItem 
                                 primaryText="Services" 
                                 className="nav-sub-menu"
@@ -49,11 +55,15 @@ class Navigation extends Component
                                     <MenuItem primaryText="SEO Services" />
                                 </Menu>
                             </ListItem>
-                            <ListItem primaryText="About" />
+                            <Link to="/about">
+                                <ListItem 
+                                primaryText="About">
+                                
+                                </ListItem>
+                            </Link>
                             <ListItem primaryText="Case Study" />
                             <ListItem primaryText="Contact" />
                         </List>
-                    </Link>
                 }
                 >
             </AppBar>

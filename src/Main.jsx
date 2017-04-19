@@ -1,17 +1,25 @@
 import React, {Component} from 'react';
-
 import Navigation from './shared/Navigation';
-import Home from './pages/home/Home';
 import Footer from './shared/Footer';
+
 
 class Main extends Component
 {
+    constructor(props)
+    {
+
+        super(props)
+    }
+
     render()
     {
         return (
-            <div>
+            <div id="container-main">
+                
                 <Navigation />
-                <Home />
+                <div id="main">
+                    {this.props.children}
+                </div>
                 <Footer />
             </div>
         );

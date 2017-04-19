@@ -2,7 +2,7 @@
 {
     display: flex;
     justify-content: space-around;
-    padding-top:104px;
+    padding-top:60px;
 }
 
 
@@ -10,10 +10,14 @@
 {
     display: flex;
     justify-content: center;
-    min-height:644px;
+    min-height:650px;
 }
 
 
+.banner-action-area
+{
+    margin-top:30px;
+}
 
 .banner-action-area > div:nth-child(2)
 {
@@ -33,6 +37,7 @@
 {
     color: #757575;
     line-height: 1.5;
+    padding-right:40px;
 }
 
 @media screen and (max-width: 1024px)
